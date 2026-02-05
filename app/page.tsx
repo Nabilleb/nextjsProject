@@ -33,8 +33,16 @@ export default function Page() {
           <Image
             src="/hero-desktop.png"
             alt="Dashboard Hero"
-            width={500}
-            height={300}
+            width={1000}
+            height={760}
+            className='hidden md:block'
+          />
+          <Image
+          src="/hero-mobile.png"
+          alt="Dashboard Hero Mobile"
+          width={560}
+          height={620}
+          className="block md:hidden"
           />
         </div>
       </div>
